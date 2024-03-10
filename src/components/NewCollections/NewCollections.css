@@ -1,0 +1,20 @@
+.new_collections {
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+   margin-top: 50px;
+}
+.new_collections hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #252525;
+}
+.collections{
+    margin-top:50px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+   
+}

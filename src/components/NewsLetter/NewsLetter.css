@@ -1,0 +1,34 @@
+.subscribe{
+    background-color: rgb(254, 181, 181);
+    border-radius: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscribe input{
+    height: 35px;
+    border-radius: 5px;
+    width: 250px;
+    border: none;
+}
+.newsletter{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width:475px) {
+    .newsletter{
+        margin-top: 50px;
+    }
+    .newsletter h1{
+        font-size: 25px;
+        font-weight: 600;
+    }
+}
+@media (max-width:390px){
+    .subscribe input{
+        width: 150px;
+    }
+}

@@ -1,0 +1,30 @@
+.offers{
+    background-color:rgb(244, 144, 144) ;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+.offers_data{
+   display: flex;
+   flex-direction: column;
+   margin-top: 100px;
+   align-items: center;
+}
+.offers_data h2{
+    font-weight: 700;
+}
+.offers_data p{
+    font-weight: 500;
+}
+.offers_image{
+    display: flex;
+    
+    justify-content: center;
+}
+.offers_image img{
+    height: 400px;
+}
+@media (max-width:576px) {
+    .offers_data{
+        margin-top: 50px;
+    }
+}
